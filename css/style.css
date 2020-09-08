@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.Navigation {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: auto;
+    padding: 35px;
+}
+
+.Nav {
+    display: flex;
+}
+
+.logo {
+    font-size: 25px !important;
+    font-weight: bold;
+    width: 30%;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin-right: 3%;
+    font-size: 19px;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin-left: 3%;
+    font-size: 19px;
+}
+
+.list {
+    text-decoration: none !important;
+    list-style: none;
+}
+
+/* header section */
+.header{
+    padding-top: 60px;
+    width: 80%;
+    height: 70vh;
+}
+
+
+.intro-text {
+    font-stretch: ultra-expanded;
+    text-decoration: underline;
+    color: #8906a3;
+}
+
+.hero-texts {
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+.hero-paragraphs{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* the form */
+.forms {
+    background-color: rgb(236, 236, 236);
+    padding: 50px 20px;
+    box-shadow: -2px 12px 20px rgba(0, 0, 0, 0.61)
+}
+
+
+/* about section */
+
+
+.them-content {
+    background-color: rgb(236, 236, 236);
+    padding: 30px;
+}
+
+.image {
+    width: 100%;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Last section */
+
+
+.last-section{
+      /* The image used */
+  background-image: url("../images/image2.png");
+  background-position-y: #00000098;
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.last-section-content{
+  color: white;
+  display: inline;
+  
+}
+.the-content{
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+.last-section-paragraph{
+  font-size: 18px; 
+  margin-top: 10px; 
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: flex-start;
+}
